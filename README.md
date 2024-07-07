@@ -7,9 +7,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
-
 }
-
 .topnav {
   overflow: hidden;
   position: fixed;
@@ -25,12 +23,14 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  background-color: #007BFF;
+  background-color: white; 
+  color: #04AA6D; 
+  border: 2px solid #04AA6D;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: green;
+  background-color: #04AA6D;
+  color: white;
 }
 .card {
    background-color: white;
