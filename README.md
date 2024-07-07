@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,15 +7,6 @@
 body {
   margin: 0;
   font-family: sans-serif;
-
-}
-
-.logo {
-    position: relative;
-    font-weight: bold;
-    font-size: 25px;
-    padding: 1.5%  2%;
-    font-family: Sans-serif;
 
 }
 
@@ -95,9 +85,6 @@ footer {
 </style>
 </head>
 <body>
-<div class="logo">
-<a href="#reynodyn">Reynodyn</a>
-</div>
 <div class="topnav">
 
   <a href="#home">About us</a>
