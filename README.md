@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Marketing Business</title>
+    <title>Reynodyn</title>
 <style>
 body {
   margin: 0;
@@ -10,7 +10,7 @@ body {
 }
 .topnav {
   overflow: hidden;
-  position: fixed;
+  position: relative;
     top: 0;
     left: 30%;
     transform: none;
@@ -24,13 +24,12 @@ body {
   text-decoration: none;
   font-size: 17px;
   background-color: white; 
-  color: #04AA6D; 
-  border: 2px solid #04AA6D;
-}
+  color: #595959; 
+  }
 
 .topnav a:hover {
-  background-color: #04AA6D;
-  color: white;
+  background-color:#f2f2f2;
+  color: #000000;
 }
 .card {
    background-color: white;
@@ -39,18 +38,14 @@ body {
 }
 
 .card2 {
-   background-color: #ddd;
+   background-color: #f2f2f2;
    padding: 170px  90px;
    margin-top: 20px;
 }
 .subhead {
-  color: green;
-}
-
-.box {
-  background-color: #aaa;
-  width: 20%;
-  padding: 20px;
+  color: #0077B4;
+  font-size: 50px;
+  padding: 30px 16px;
 }
 
 .button {
@@ -68,18 +63,18 @@ body {
 }
 .button1 {
   background-color: white; 
-  color: black; 
-  border: 2px solid #04AA6D;
+  color: #0077B4; 
+  border: 2px solid #0077B4;
 }
 
 .button1:hover {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #e6f6ff;
+  color: #005580;
 }
 footer {
   text-align: center;
   padding: 3px;
-  background-color: #ddd;
+  background-color: #f2f2f2;
   color: black;
 }
 </style>
@@ -103,8 +98,6 @@ footer {
 
 <div class="card">
 <div class="subhead">Service built for you</div>
-<div class="box" style="height:200px;">Image</div>
-<div class="box" style="height:200px;">Image</div>
 <ul>
 <li>Graphic Designing</li>
 <li>Digital Marketing</li>
@@ -117,7 +110,7 @@ footer {
 </ul>
 </div>
 <div class="card2">
-<h2>“Effort, knowledge and perseverance can build a dream into existence..”</h2><br>
+<h2>“Effort, knowledge and perseverance can build a dream into existence..”</h2><br />
 Alias
 </div>
 <div class="card">
