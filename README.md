@@ -1,126 +1,35 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Reynodyn</title>
-<style>
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Business</title>
+    <style>
+        /* Basic CSS for layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav {
+            padding: 10px;
+            background-color: #ddd; 
+         }
 
-.about {
-  font-size: 18px;
-}
-.topnav {
-  overflow: hidden;
-  position: relative;
-    top: 0;
-    left: 30%;
-    transform: none;
-}
-
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  background-color: white; 
-    transition-duration: 0.4s;
-  color: #595959; 
-  }
-
-.topnav a:hover {
-  background-color:#f2f2f2;
-  color: #000000;
-  border-radius:80px;
-}
-.topnav a.active{
-  color:#0077B4; ;
-}
-.topnav a.active:hover {
-  background-color: #e6f6ff;
-  color: #005580;
-}
-.card {
-   background-color: white;
-   padding: 120px  90px;
-   margin-top: 20px;
-}
-
-.card2 {
-   background-color: #f2f2f2;
-   padding: 120px  90px;
-   margin-top: 20px;
-   
-}
-
-
-.subhead {
-  color: #0077B4;
-  font-size: 50px;
-  padding: 30px 16px;
-}
-
-.button {
-  background-color: #04AA6D; 
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
- }
-.button1 {
-  background-color: transparent; 
-  color: #0077B4; 
-  border: 1px solid #0077B4;
-  border-radius:80px;
-}
-
-.button1:hover {
-  background-color: #e6f6ff;
-  color: #005580;
-  border: 2px solid #e6f6ff;
-  border: 1px solid #0077B4;
-}
-
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.left {
-  left: 0;
-  background-color: #111;
-}
-
-.right {
-  right: 0;
-  background-color: red;
-}
-
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: #343a40;
-  color: white;
-}
-.topnav .icon {
-  display: none;
-  background-color: #f2f2f2;
-}
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            overflow: hidden;
+        }
 
 .flex-container {
   display: flex;
@@ -130,7 +39,6 @@ footer {
 }
 
 .flex-item-left {
-  background-color: #f1f1f1;
   padding: 5%;
   flex: 50%;
 }
@@ -139,26 +47,6 @@ footer {
   padding: 5%;
   flex: 50%;
 }
-.map{
-  width: 100%;
-  height: auto;
-
-}
-@media only screen and (max-width: 700px) {
- .map { 
-     width: 100%;
-     height: auto;
-  }
-}
-
-@media only screen and (max-width: 700px) {
- .body, .topnav,  .footer, .subhead, .card, .card2 { 
-     width: 90%;
-     padding: 10px  30px;
-     height: auto;
-  }
-}
-
 @media only screen and (max-width: 700px) {
   /* For mobile phones: */
 .flex-container {
@@ -167,70 +55,59 @@ footer {
   }
 
 }
-
-@media screen and (max-width: 700px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: left;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 334;
-    top: 10;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-</style>
+        .section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .section p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Digital Marketing Business</h1>
+        <p>Brings change</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#services">Services</a> |
+        <a href="#about">About Us</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Welcome to Reynodyn</h2>
+            <p>Ideal for founders, product managers, and innovators who want to design, and brand their products for business growth</p>
+	<button class="button button1">Learn more</button>
+        </section>
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <p>Explore our range of digital marketing services tailored to meet your business goals.</p>
+            <div class="flex-container">
+  	<div class="flex-item-left">
 
-<div class="topnav" id="myTopnav">
-  <a href="https://reynodyn.github.io" class="active">Home</a>
-  <a href="#home">Services</a>
-  <a href="#news">About us</a>
-  <a href="#about">Work</a>
-  <a href="#about">Insights</a>
-  <a href="#contact">Contact</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()" >Re</a>
-</div>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-
-<div class="card">
-<h1>Ideal for founders, product managers, and innovators who want to design, and brand their products for business growth</h1>
-<button class="button button1">Learn more</button>
-</div>
-
-<div class="card">
-<div class="subhead">Service built for you</div>
-<div class="flex-container">
-  <div class="flex-item-left">
-
-Marketing
-<ul style="line-height:180%">
-<li>Organic search</li>
-<li>E-commerce marketing services</li>
-<li>Paid social media advertising</li>
-<li>Global affiliate marketing</li>
-</ul>
+	Marketing
+	<ul style="line-height:180%">
+	<li>Organic search</li>
+	<li>E-commerce marketing services</li>
+	<li>Paid social media advertising</li>
+	<li>Global affiliate marketing</li>
+	</ul>
 
 
 </div>
@@ -246,100 +123,23 @@ Designing
 </div>
 
 </div>
-
-<p>
-<button class="button button1">See more</button>
-</p>
-
-</div>
-
-
-<div class="card">
-<div class="subhead"> Who we are</div>
-<p class="about" style="line-height:180%">
-We are built to change future. We serves as a strategic partner for businesses, specializing in promoting products or services to target audiences effectively. 
-We conduct comprehensive market research to understand consumer behavior, trends, and competitors. 
-Using this data, we develop tailored marketing strategies that may include digital campaigns, social media management, 
-content creation, SEO optimization, and advertising.
-</p>
-<button class="button button1">About us</button>
-</div>	
-<div class="card2">
-<div class="subhead"> Work</div>
-<div class="flex-container">
-  <div class="flex-item-left">
-<img src="C:\Users\Thomas\Downloads\Thought of the day.jpg" alt="HTML5 Icon" style="width:100%;height:100%;">
-<p>Marketing</p>
-</div>
-  <div class="flex-item-right">
-<img src="C:\Users\Thomas\Downloads\image.png" alt="HTML5 Icon" style="width:100%;height:70%;">
-<p>Designing</p>
-
-</div>
-
-</div>
-<p>
-<button class="button button1">See more</button>
-</p>
-</div>
-
-<div class="card">
-<div class="subhead"> Blog</div>
-<div class="flex-container">
-  <div class="flex-item-left">
-
-
-<a href="https://cometers.github.io/at/Webpage/pages/UL-1.html" title="See more on technology" target="_blank">Technology</a>
-
-</div>
-  <div class="flex-item-right">
-
-<a href="https://cometers.github.io/at/Webpage/pages/cwh.html" title="See more on health" target="_blank">Health</a>
-</div>
-  <div class="flex-item-left">
-
-<a href="https://cometers.github.io/at/Webpage/pages/cwh.html" title="See more on energy" target="_blank">Energy</a>
-</div>
-  <div class="flex-item-right">
-
-<a href="https://cometers.github.io/at/Webpage/pages/cwh.html" title="See more on sustainable earth" target="_blank">Sustainable earth</a>
-</div>
-
-</div>
-<p>
-<button class="button button1">See more</button>
-</p>
-</div>
-<div class="card">
-
-<h1>Trusted by companies around the globe</h1>
-<div class="flex-container">
-  <div class="flex-item-left">
-United States
-</div>
-<div class="flex-item-right">
-Europe
-</div>
- <div class="flex-item-left">
-India
-</div>
-<div class="flex-item-right">
-Australia
-</div>
-
-</div>
-
-<img class="map" src="C:\Users\Thomas\Downloads\map.png" alt="HTML5 Icon">
-</div>
-<div class="card2">
-<h2><q>Either you run the day or the day runs you</q></h2><br />
-Jim Rohn
-</div>
-<footer>
-  <p>For help mail to
-  <a href="mailto:reynodyn@gmail.com">reynodyn@gmail.com</a></p>
-  <p>&copy; 2024 Reynodyn. All Rights Reserved.</p>
-</footer>
-
+        </section>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>We are built to change future. We serves as a strategic partner for businesses, specializing in promoting products or services to target audiences effectively. We conduct comprehensive market research to understand consumer behavior, trends, and competitors. Using this data, we develop tailored marketing strategies that may include digital campaigns, social media management, content creation, SEO optimization, and advertising.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us to discuss your digital marketing strategy.</p>
+            <address>
+                Phone: (123) 456-7890<br>
+                Email: <a href="mailto:reynodyn@gmail.com">reynodyn@gmail.com</a><br>
+	<a href="#home">LinkedIn</a> | <a href="#home">You Tube</a>
+            </address>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Digital Marketing Business. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
