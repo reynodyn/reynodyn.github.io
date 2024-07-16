@@ -20,6 +20,15 @@
             padding: 0 20px;
             overflow: hidden;
         }
+	@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+.container {
+  max-width: 700px;
+            margin: 20px auto;
+            padding: 0 20px;
+            overflow: hidden;
+  }
+}
 
 .flex-container {
   display: flex;
