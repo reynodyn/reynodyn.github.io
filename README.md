@@ -23,7 +23,7 @@
 	@media only screen and (max-width: 700px) {
   /* For mobile phones: */
 .container {
-  max-width: 700px;
+  max-width: 320px;
             margin: 20px auto;
             padding: 0 20px;
             overflow: hidden;
