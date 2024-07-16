@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,23 +6,14 @@
     <style>
         /* Basic CSS for layout */
         body {
-            font-family: Arial, sans-serif;
+            font-family:sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            color: black;
         }
         nav {
-            padding: 10px;
-            background-color: #ddd; 
-         }
-
+            padding: 10px 20px; 
+        }
         .container {
             max-width: 1200px;
             margin: 20px auto;
@@ -34,8 +24,6 @@
 .flex-container {
   display: flex;
   flex-direction: row;
-  font-size: 15px;
-  
 }
 
 .flex-item-left {
@@ -56,13 +44,13 @@
 
 }
         .section {
-            padding: 20px;
+            padding: 50px;
             margin-bottom: 20px;
             background-color: #fff;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         .section h2 {
-            color: #333;
+            color: #0077B4;
             font-size: 24px;
             margin-bottom: 10px;
         }
@@ -79,10 +67,6 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Digital Marketing Business</h1>
-        <p>Brings change</p>
-    </header>
     <nav>
         <a href="#home">Home</a> |
         <a href="#services">Services</a> |
@@ -93,7 +77,7 @@
         <section id="home" class="section">
             <h2>Welcome to Reynodyn</h2>
             <p>Ideal for founders, product managers, and innovators who want to design, and brand their products for business growth</p>
-	<button class="button button1">Learn more</button>
+	
         </section>
         <section id="services" class="section">
             <h2>Our Services</h2>
@@ -132,9 +116,9 @@ Designing
             <h2>Contact Us</h2>
             <p>Get in touch with us to discuss your digital marketing strategy.</p>
             <address>
-                Phone: (123) 456-7890<br>
                 Email: <a href="mailto:reynodyn@gmail.com">reynodyn@gmail.com</a><br>
-	<a href="#home">LinkedIn</a> | <a href="#home">You Tube</a>
+	<a href="https://www.linkedin.com/company/reynodyn?trk=public_profile_experience-item_profile-section-card_subtitle-click" target="_blank">LinkedIn</a> | 
+        <a href="https://www.youtube.com" target="_blank">You Tube</a>
             </address>
         </section>
     </div>
