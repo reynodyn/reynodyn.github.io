@@ -54,7 +54,25 @@ body {
    background-color: #f2f2f2;
    padding: 120px  90px;
    margin-top: 20px;
+   
 }
+
+@media only screen and (max-width: 20px) 
+{
+  /* For mobile phones: */
+  
+.card,.card2, .split{
+    
+   padding-top: 50px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+   width:100%;
+   margin-right: 0px;}
+
+}
+
+
 .subhead {
   color: #0077B4;
   font-size: 50px;
@@ -258,11 +276,11 @@ content creation, SEO optimization, and advertising.
 <div class="subhead"> Work</div>
 <div class="flex-container">
   <div class="flex-item-left">
-<img src="C:\Users\Thomas\Downloads\Thought of the day.jpg" alt="Thought" style="width:100%;height:100%;">
+<img src="C:\Users\Thomas\Downloads\Thought of the day.jpg" alt="HTML5 Icon" style="width:100%;height:100%;">
 <p>Marketing</p>
 </div>
   <div class="flex-item-right">
-<img src="C:\Users\Thomas\Downloads\image.png" alt="horse" style="width:100%;height:70%;">
+<img src="C:\Users\Thomas\Downloads\image.png" alt="HTML5 Icon" style="width:100%;height:70%;">
 <p>Designing</p>
 
 </div>
@@ -278,37 +296,21 @@ content creation, SEO optimization, and advertising.
 <div class="flex-container">
   <div class="flex-item-left">
 
-Technology
-<ul style="line-height:180%">
-<li>Organic search</li>
 
-</ul>
-<a href="#home" title="See more on technology">See more</a>
+<a href="https://cometers.github.io/at/Webpage/pages/UL-1.html" title="See more on technology" target="_blank">Technology</a>
 
 </div>
   <div class="flex-item-right">
-Health
-<ul style="line-height:180%">
-<li>Graphic Designing</li>
 
-</ul>
-<a href="#home" title="See more on health">See more</a>
+<a href="https://cometers.github.io/at/Webpage/pages/cwh.html" title="See more on health" target="_blank">Health</a>
 </div>
   <div class="flex-item-left">
-Energy
-<ul style="line-height:180%">
-<li>Graphic Designing</li>
 
-</ul>
-<a href="#home" title="See more on energy">See more</a>
+<a href="https://cometers.github.io/at/Webpage/pages/cwh.html" title="See more on energy" target="_blank">Energy</a>
 </div>
   <div class="flex-item-right">
-Sustainable earth
-<ul style="line-height:180%">
-<li>Graphic Designing</li>
 
-</ul>
-<a href="#home" title="See more on sustainable earth">See more</a>
+<a href="https://cometers.github.io/at/Webpage/pages/cwh.html" title="See more on sustainable earth" target="_blank">Sustainable earth</a>
 </div>
 
 </div>
@@ -335,7 +337,7 @@ Australia
 
 </div>
 
-<img class="map" src="C:\Users\Thomas\Downloads\map.png" alt="map">
+<img class="map" src="C:\Users\Thomas\Downloads\map.png" alt="HTML5 Icon">
 </div>
 <div class="card2">
 <h2><q>Either you run the day or the day runs you</q></h2><br />
