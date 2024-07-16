@@ -151,7 +151,14 @@ footer {
   }
 }
 
- /*.body, .topnav,  .footer, .subhead, .card, .card2,*/
+@media only screen and (max-width: 700px) {
+ .body, .topnav,  .footer, .subhead, .card, .card2 { 
+     width: 90%;
+     padding: 10px  30px;
+     height: auto;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   /* For mobile phones: */
 .flex-container {
@@ -164,7 +171,7 @@ footer {
 @media screen and (max-width: 700px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 }
@@ -173,8 +180,8 @@ footer {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 334;
+    top: 10;
   }
   .topnav.responsive a {
     float: none;
