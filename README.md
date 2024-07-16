@@ -57,21 +57,6 @@ body {
    
 }
 
-@media only screen and (max-width: 20px) 
-{
-  /* For mobile phones: */
-  
-.card,.card2, .split{
-    
-   padding-top: 50px;
-  padding-right: 10px;
-  padding-bottom: 50px;
-  padding-left: 20px;
-   width:100%;
-   margin-right: 0px;}
-
-}
-
 
 .subhead {
   color: #0077B4;
@@ -156,21 +141,21 @@ footer {
 }
 .map{
   width: 100%;
-  height: 70%;
+  height: auto;
 
 }
 @media only screen and (max-width: 700px) {
  .map { 
      width: 100%;
-     height: 30%;
+     height: auto;
   }
 }
 
-
+ /*.body, .topnav,  .footer, .subhead, .card, .card2,*/
 @media only screen and (max-width: 700px) {
   /* For mobile phones: */
-  .body, .topnav, .card, .card2, .footer, .subhead, .flex-container{
-    width: 70%;
+.flex-container {
+   width:100%;
    flex-direction: column;
   }
 
