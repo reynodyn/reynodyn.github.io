@@ -6,7 +6,7 @@
 	<meta name="author" content="Alias Thomas">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Digital Marketing Business</title>
-<link rel="icon" type="image/x-icon" href="main/Re.jpg">
+<link rel="icon" type="image/x-icon" href="Re.jpg">
     <style>
         /* Basic CSS for layout */
         body {
@@ -63,7 +63,7 @@
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         .section h2 {
-            color: #0077B4;
+            color: #1764eb;
             font-size: 24px;
             margin-bottom: 10px;
         }
