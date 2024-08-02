@@ -1,8 +1,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Marketing Business</title>
+	<meta name="description" content="Digital Marketing Service">
+	<meta name="keywords" content="Reynodyn, reynodyn, marketing, seo, target ad, digital marketing,affiliate marketing, social media marketing, marketing strategy, email marketing, marketing plan, advertising agency, internet marketing, digital marketing course, e marketing, seo services, direct marketing, digital marketing agency, seo company, what is digital marketing,b2b marketing, marketing online, Best marketing agency, SEO agency, marketing agency, social marketing, marketing research, web marketing, online advertising, Digital Marketing Services, Web Design and Development, Lead Generation, Marketing Automation, SEO Services, Search Engine Optimization, PPC,  Advertising, Pay-Per-Click, Content Marketing, Influencer Marketing, Content Strategy, Brand Management, conversion Rate optimization, Web Analytics Services, Digital Advertising, E-commerce Marketing, Mobile Marketing, Online Marketing, Digital Marketing Services">
+	<meta name="author" content="Alias Thomas">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Marketing Business</title>
+<link rel="icon" type="image/x-icon" href="main/Re.jpg">
     <style>
         /* Basic CSS for layout */
         body {
@@ -126,8 +130,9 @@ Designing
             <p>Get in touch with us to discuss your digital marketing strategy.</p>
             <address>
                 Email: <a href="mailto:reynodyn@gmail.com">reynodyn@gmail.com</a><br>
-	<a href="https://www.linkedin.com/company/reynodyn?trk=public_profile_experience-item_profile-section-card_subtitle-click" target="_blank">LinkedIn</a> | 
-        <a href="https://www.youtube.com" target="_blank">You Tube</a>
+	<a href="https://www.instagram.com/reynodyn/" target="_blank">Instagram</a> | 
+	<a href="https://www.linkedin.com/company/reynodyn" target="_blank">LinkedIn</a> | 
+        <a href="https://www.youtube.com/@reynodyn" target="_blank">You Tube</a>
             </address>
         </section>
     </div>
