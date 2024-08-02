@@ -6,7 +6,7 @@
 	<meta name="author" content="Alias Thomas">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Digital Marketing Business</title>
-<link rel="icon" type="image/x-icon" href="https://reynodyn.github.io/files/img/Re.jpg?">
+<link rel="shortcut icon" type="image/x-icon" href="files/img/Re.jpg?">
     <style>
         /* Basic CSS for layout */
         body {
