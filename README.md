@@ -130,6 +130,7 @@ Designing
             <p>Get in touch with us to discuss your digital marketing strategy.</p>
             <address>
                 Email: <a href="mailto:reynodyn@gmail.com">reynodyn@gmail.com</a><br>
+	<a href="https://www.facebook.com/profile.php?id=61563869305756" target="_blank">Facebook</a> |
 	<a href="https://www.instagram.com/reynodyn/" target="_blank">Instagram</a> | 
 	<a href="https://www.linkedin.com/company/reynodyn" target="_blank">LinkedIn</a> | 
         <a href="https://www.youtube.com/@reynodyn" target="_blank">You Tube</a>
@@ -137,7 +138,7 @@ Designing
         </section>
     </div>
     <footer>
-        <p>&copy; 2024 Digital Marketing Business. All Rights Reserved.</p>
+        <p>&copy; 2024 Reynodyn. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
