@@ -1,12 +1,22 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-	<meta name="description" content="Digital Marketing Service">
-	<meta name="keywords" content="Reynodyn, reynodyn, marketing, seo, target ad, digital marketing,affiliate marketing, social media marketing, marketing strategy, email marketing, marketing plan, advertising agency, internet marketing, digital marketing course, e marketing, seo services, direct marketing, digital marketing agency, seo company, what is digital marketing,b2b marketing, marketing online, Best marketing agency, SEO agency, marketing agency, social marketing, marketing research, web marketing, online advertising, Digital Marketing Services, Web Design and Development, Lead Generation, Marketing Automation, SEO Services, Search Engine Optimization, PPC,  Advertising, Pay-Per-Click, Content Marketing, Influencer Marketing, Content Strategy, Brand Management, conversion Rate optimization, Web Analytics Services, Digital Advertising, E-commerce Marketing, Mobile Marketing, Online Marketing, Digital Marketing Services">
-	<meta name="author" content="Alias Thomas">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+	<meta name="description" content="Digital Marketing Service" />
+	<meta name="keywords" content="Reynodyn, reynodyn, marketing, seo, target ad, digital marketing,affiliate marketing, social media marketing, marketing 
+
+strategy, email marketing, marketing plan, advertising agency, internet marketing, digital marketing course, e marketing, seo services, direct marketing, digital 
+
+marketing agency, seo company, what is digital marketing,b2b marketing, marketing online, Best marketing agency, SEO agency, marketing agency, social marketing, 
+
+marketing research, web marketing, online advertising, Digital Marketing Services, Web Design and Development, Lead Generation, Marketing Automation, SEO Services, 
+
+Search Engine Optimization, PPC,  Advertising, Pay-Per-Click, Content Marketing, Influencer Marketing, Content Strategy, Brand Management, conversion Rate 
+
+optimization, Web Analytics Services, Digital Advertising, E-commerce Marketing, Mobile Marketing, Online Marketing, Digital Marketing Services" />
+	<meta name="author" content="Alias Thomas" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Digital Marketing Business</title>
-<link rel="shortcut icon" type="image/x-icon" href="https://reynodyn.github.io/files/img/Re.jpg">
+<link rel="shortcut icon" type="image/x-icon" href="https://reynodyn.github.io/files/img/Re.jpg" />
     <style>
         /* Basic CSS for layout */
         body {
@@ -95,6 +105,9 @@
         <section id="services" class="section">
             <h2>Our Services</h2>
             <p>Explore our range of digital marketing services tailored to meet your business goals.</p>
+	    What we've done for people
+     <img src="files/img/webdesign-1.jpg" alt="Web design-1" style="width:500px;height:600px;">
+         
             <div class="flex-container">
   	<div class="flex-item-left">
 
@@ -113,9 +126,8 @@ Designing
 <ul style="line-height:180%">
 <li>Graphic Designing</li>
 <li>Product designing</li>
-
-<li>Strategy and planning</li>
-<li>Print on demand - T-Shirt, mug Printing</li>
+<li>Application and Website designing</li>
+<li>Branding - Logo,Package designing</li>
 </ul>
 </div>
 
@@ -123,13 +135,17 @@ Designing
         </section>
         <section id="about" class="section">
             <h2>About Us</h2>
-            <p>We are built to change future. We serves as a strategic partner for businesses, specializing in promoting products or services to target audiences effectively. We conduct comprehensive market research to understand consumer behavior, trends, and competitors. Using this data, we develop tailored marketing strategies that may include digital campaigns, social media management, content creation, SEO optimization, and advertising.</p>
+            <p>We are built to change future. We serves as a strategic partner for businesses, specializing in promoting products or services to target audiences 
+
+effectively. We conduct comprehensive market research to understand consumer behavior, trends, and competitors. Using this data, we develop tailored marketing 
+
+strategies that may include digital campaigns, social media management, content creation, SEO optimization, and advertising.</p>
         </section>
         <section id="contact" class="section">
             <h2>Contact Us</h2>
             <p>Get in touch with us to discuss your digital marketing strategy.</p>
             <address>
-                Email: <a href="mailto:reynodyn@gmail.com">reynodyn@gmail.com</a><br>
+                Email: <a href="mailto:reynodyn@gmail.com">reynodyn@gmail.com</a><br />
 	<a href="https://www.facebook.com/profile.php?id=61563869305756" target="_blank">Facebook</a> |
 	<a href="https://www.instagram.com/reynodyn/" target="_blank">Instagram</a> | 
 	<a href="https://www.linkedin.com/company/reynodyn" target="_blank">LinkedIn</a> | 
