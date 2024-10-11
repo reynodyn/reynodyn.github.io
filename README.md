@@ -104,11 +104,11 @@ optimization, Web Analytics Services, Digital Advertising, E-commerce Marketing,
         </section>
         <section id="services" class="section">
             <h2>Our Services</h2>
-            <p>Explore our range of digital marketing services tailored to meet your business goals.</p>
-	    What we've done for people
-     <img src="files/img/webdesign-1.jpg" alt="Web design-1" style="width:500px;height:600px;">
-         
+            <p>Explore our range of design and digital marketing services tailored to meet your business goals.</p>
+
+     <img src="files/img/webdesign-1.jpg" alt="Web design-1" style="height:60%;" />
             <div class="flex-container">
+
   	<div class="flex-item-left">
 
 	Marketing
@@ -124,10 +124,10 @@ optimization, Web Analytics Services, Digital Advertising, E-commerce Marketing,
   <div class="flex-item-right">
 Designing
 <ul style="line-height:180%">
-<li>Graphic Designing</li>
-<li>Product designing</li>
-<li>Application and Website designing</li>
-<li>Branding - Logo,Package designing</li>
+<li>UI/UX design- application and website</li>
+<li>Product design- electronics,consumer goods,automotive</li>
+<li>Graphic Design- branding, ad, packaging</li>
+<li>Interior Design- residential, commercial and public settings</li>
 </ul>
 </div>
 
