@@ -25,6 +25,7 @@ optimization, Web Analytics Services, Digital Advertising, E-commerce Marketing,
             padding: 0;
             color: black;
         }
+    
         nav {
             padding: 10px 20px; 
         }
@@ -72,6 +73,11 @@ optimization, Web Analytics Services, Digital Advertising, E-commerce Marketing,
             background-color: #fff;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
+      .section h1 {
+            color: #1764eb;
+            font-size: 500%;
+            margin-bottom: 10px;
+}
         .section h2 {
             color: #1764eb;
             font-size: 24px;
@@ -87,6 +93,88 @@ optimization, Web Analytics Services, Digital Advertising, E-commerce Marketing,
             text-align: center;
             padding: 10px 0;
         }
+
+ /* Services Section */
+    .services {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+    .services h2 {
+      margin-bottom: 30px;
+    }
+    .service-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .service-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .service-card h3 {
+      margin-bottom: 15px;
+      font-size: 1.5em;
+    }
+    .service-card p {
+      font-size: 1.1em;
+    }
+  /* Portfolio Section */
+    .portfolio {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .portfolio h2 {
+      margin-bottom: 30px;
+    }
+    .portfolio-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 15px;
+    }
+    .portfolio-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    .portfolio-item img:hover {
+      transform: scale(1.1);
+    }
+
+form {
+      
+      margin: 0 auto;
+      
+      padding: 20px;
+      
+    }
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    form button {
+      background-color: #1764eb;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 5px;
+    }
+    form button:hover {
+      background-color: #2875fc;
+    }
+
+
+
     </style>
 </head>
 <body>
@@ -98,53 +186,72 @@ optimization, Web Analytics Services, Digital Advertising, E-commerce Marketing,
     </nav>
     <div class="container">
         <section id="home" class="section">
-            <h2>Welcome to Reynodyn</h2>
-            <p>Ideal for founders, product managers, and innovators who want to design, and brand their products for business growth</p>
-	
+            <h1>Transform Your Business with Reynodyn</h1>
+            <p>Ideal for founders, product managers, and innovators who want to grow online with creative web design, effective SEO, and data-driven marketing strategies</p>
+            <a href="#contact" class="cta-button">Get Started</a>
         </section>
+
         <section id="services" class="section">
             <h2>Our Services</h2>
-            <p>Explore our range of design and digital marketing services tailored to meet your business goals.</p>
+    <div class="service-cards">
+      <div class="service-card">
+        <h3>Web Design</h3>
+        <p>We create visually stunning, user-friendly websites that drive results and make a lasting impression.</p>
+      </div>
+      <div class="service-card">
+        <h3>SEO Optimization</h3>
+        <p>Improve your website's ranking on search engines with our proven SEO strategies.</p>
+      </div>
+      <div class="service-card">
+        <h3>Social Media Marketing</h3>
+        <p>Engage your audience and grow your brand through targeted social media campaigns.</p>
+      </div>
+      <div class="service-card">
+        <h3>E-commerce</h3>
+        <p>Build powerful online stores with seamless shopping experiences.</p>
+      </div>
+    </div>
 
-     <img src="files/img/webdesign-1.jpg" alt="Web design-1" style="height:60%;" />
-            <div class="flex-container">
 
-  	<div class="flex-item-left">
+    <h2>Our Portfolio</h2>
+    <div class="portfolio-gallery">
+      <div class="portfolio-item">
+        <img src="files/img/webdesign-1.jpg" alt="Project1" style="height:60%;" />
+      </div>
+      <div class="portfolio-item">
+        <img src="files/img/webdesign-1.jpg" alt="Project1" style="height:60%;" />
+      </div>
+      <div class="portfolio-item">
+        <img src="files/img/webdesign-1.jpg" alt="Project1" style="height:60%;" />
+      </div>
+      <div class="portfolio-item">
+        <img src="files/img/webdesign-1.jpg" alt="Project1" style="height:60%;" />
+      </div>
+    </div>
+  </section>
 
-	Marketing
-	<ul style="line-height:180%">
-	<li>Organic search</li>
-	<li>E-commerce marketing services</li>
-	<li>Paid social media advertising</li>
-	<li>Global affiliate marketing</li>
-	</ul>
 
-
-</div>
-  <div class="flex-item-right">
-Designing
-<ul style="line-height:180%">
-<li>UI/UX design- application and website</li>
-<li>Product design- electronics,consumer goods,automotive</li>
-<li>Graphic Design- branding, ad, packaging</li>
-<li>Interior Design- residential, commercial and public settings</li>
-</ul>
-</div>
-
-</div>
-        </section>
+        
         <section id="about" class="section">
             <h2>About Us</h2>
             <p>We are built to change future. We serves as a strategic partner for businesses, specializing in promoting products or services to target audiences 
 
-effectively. We conduct comprehensive market research to understand consumer behavior, trends, and competitors. Using this data, we develop tailored marketing 
-
-strategies that may include digital campaigns, social media management, content creation, SEO optimization, and advertising.</p>
+effectively. We conduct comprehensive market research to understand consumer behavior, trends, and competitors. Our goal is to build user-friendly, responsive, and visually captivating websites that help businesses succeed online.</p>
         </section>
         <section id="contact" class="section">
             <h2>Contact Us</h2>
             <p>Get in touch with us to discuss your digital marketing strategy.</p>
             <address>
+
+
+<form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+
                 Email: <a href="mailto:reynodyn@gmail.com">reynodyn@gmail.com</a><br />
 	<a href="https://www.facebook.com/profile.php?id=61563869305756" target="_blank">Facebook</a> |
 	<a href="https://www.instagram.com/reynodyn/" target="_blank">Instagram</a> | 
