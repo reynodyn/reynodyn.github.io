@@ -135,9 +135,7 @@ optimization, Web Analytics Services, Digital Advertising, E-commerce Marketing,
       gap: 15px;
     }
     .portfolio-item img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
+      width: 100%;          
       border-radius: 8px;
       transition: transform 0.3s;
     }
@@ -216,16 +214,16 @@ form {
     <h2>Our Portfolio</h2>
     <div class="portfolio-gallery">
       <div class="portfolio-item">
-        <img src="files/img/webdesign-1.jpg" alt="Project1" style="height:60%;" />
+        <img src="files/img/webdesign-1.jpg" alt="Project1" />
       </div>
       <div class="portfolio-item">
-        <img src="files/img/webdesign-1.jpg" alt="Project1" style="height:60%;" />
+        <img src="files/img/webdesign-1.jpg" alt="Project1"/>
       </div>
       <div class="portfolio-item">
-        <img src="files/img/webdesign-1.jpg" alt="Project1" style="height:60%;" />
+        <img src="files/img/webdesign-1.jpg" alt="Project1"/>
       </div>
       <div class="portfolio-item">
-        <img src="files/img/webdesign-1.jpg" alt="Project1" style="height:60%;" />
+        <img src="files/img/webdesign-1.jpg" alt="Project1"/>
       </div>
     </div>
   </section>
