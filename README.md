@@ -214,7 +214,7 @@ form {
     <h2>Our Portfolio</h2>
     <div class="portfolio-gallery">
       <div class="portfolio-item">
-        <img src="files/img/webdesign-1.jpg" alt="Project1" />
+        <img src="files/img/GF.svg" alt="Project1" />
       </div>
       <div class="portfolio-item">
         <img src="files/img/webdesign-1.jpg" alt="Project1"/>
